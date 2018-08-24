@@ -1,0 +1,13 @@
+
+curl "http://127.0.0.1:3080/" -X GET 
+
+###
+
+curl "http://127.0.0.1:3080/documents/create/" -X GET 
+
+###
+
+curl -X POST \
+-d title="Hello" \
+-d body="Some Body" \
+http://127.0.0.1:3080/documents/create/
